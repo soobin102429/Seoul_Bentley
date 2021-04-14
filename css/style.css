@@ -84,18 +84,21 @@ background: transparent;
   color: #fff;
 }
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
-  display: inline-block;
   padding: 8px 28px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
+}
+#hero>.hero-container>.btn-get-started:hover{
+  background: aqua;
+}
+.hero-container>h1:hover{
+  color: #E34F25;
 }
 #introduce{
 background: #fff;
@@ -139,46 +142,11 @@ background: white;
 #myVideo{
   width: 100%;
 }
-.info-box .content {
-  padding: 60px 100px 0 0px;
-}
-.info-box .content h3 {
-  font-weight: 400;
-  font-size: 34px;
-}
-.info-box .content p {
-  font-size: 15px;
-  color: #6b8a86;
-}
-.info-box .img {
-  width: 100%;
-  background-image: url(../images/banner-img.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 400px;
-}
-.info-box .accordion-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding-right: 30px;
-  outline: none;
-  transition: ease-in-out 0.3s;
-  cursor: pointer;
-}
-.info-box .accordion-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-.info-box .accordion-list li {
+#info-box{
+  background: white;
   padding: 20px;
-  background: #f2f5f4;
-  border-radius: 5px;
 }
-.info-box .accordion-list li + li {
-  margin-top: 15px;
+#info-box>.container>.row>.col-lg-7>a>img{
+  width: 100%;
+  height: 100%;
 }
