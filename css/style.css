@@ -288,6 +288,12 @@ footer{
   /* ========= hero section end ========== */
   }
   /* ============== 768 end ============== */
+  @media(max-width:767px){
+    .footer-menu-R>ul>li>a>i{
+      margin-right: 20px !important;
+    }
+  }
+  /* ============== 540 end ============== */
   @media(max-width:400px){
     .br{
       display: block;
