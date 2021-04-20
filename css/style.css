@@ -105,6 +105,9 @@ transition: all 1s;
 .hero-container>h1:hover{
   color: #7F988F;
 }
+.mobile-ver{
+  display: none;
+}
 /* ============= hero section end =============  */
 #introduce{
 background: #fff;
@@ -293,11 +296,17 @@ footer{
       margin-right: 20px !important;
     }
   }
-  /* ============== 540 end ============== */
-  @media(max-width:400px){
-    .br{
+  /* ============== 767 end ============== */
+  @media(max-width:560px){
+    .pc{
+      display: none;
+    }
+    .mobile-ver{
       display: block;
     }
+  }
+  /* ============== 560 end ============== */
+  @media(max-width:400px){
     #hero .btn-get-started {
       font-weight: 500;
       font-size: 14px;
